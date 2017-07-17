@@ -7,6 +7,7 @@
 		public $days;	   	//每个月几天
 		public $weekday;   //每个月1号是星期几
 	//初始化数据
+	//保存每次更改以后的年月日
 	public function __construct(){
 		$this->year=$_GET['year']?$_GET['year']:date('Y');
 		$this->month=$_GET['month'] ? $_GET['month'] : date("m");;
